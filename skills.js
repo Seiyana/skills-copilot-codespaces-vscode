@@ -1,13 +1,6 @@
 function CalculateNumbers(var1, var2) {
-    var sum = var1 + var2;
-    var difference = var1 - var2;
-    var product = var1 * var2;
-    var quotient = var1 / var2;
-
-    return {
-        sum: sum,
-        difference: difference,
-        product: product,
-        quotient: quotient
-    };
+    console.log("Calculating numbers...");
+    var result = var1 + var2;
+    console.log("The result is: " + result);
+    return result;
 }
